@@ -24,7 +24,8 @@ source ~/.profile
 
 nvm install 10.15.1 && nvm use 10.15.1 && nvm alias default 10.15.1
 
-
-
 #needed for isntalling any python modules
 pip3 install --upgrade pip
+
+echo  'export PATH="$HOME/.poetry/bin:$PATH"' >> ~/.bashrc 
+echo  'export PATH="$HOME/Library/Python/3.8/bin:$PATH"' >> ~/.bashrc 
