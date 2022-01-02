@@ -29,3 +29,9 @@ pip3 install --upgrade pip
 
 echo  'export PATH="$HOME/.poetry/bin:$PATH"' >> ~/.bashrc 
 echo  'export PATH="$HOME/Library/Python/3.8/bin:$PATH"' >> ~/.bashrc 
+
+# installing aws cli
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
